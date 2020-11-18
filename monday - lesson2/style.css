@@ -1,0 +1,66 @@
+body{
+    margin: 500;
+    padding: 500;
+    box-sizing: border-box;
+    
+    background-color: lightgoldenrodyellow;
+}
+
+.parallax{
+    background-image: url(sushi.jpeg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+}
+
+h1{
+    color: green;
+    font-size: 40px;
+    margin: 10px;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+article {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    
+
+ul {
+    position: absolute;
+    display: flex;
+    right: 0;
+   list-style-type: none;
+   margin: 0px;
+   padding-right: 10%;
+
+}
+li{
+    margin: 10px;
+}
+
+ 
+      
