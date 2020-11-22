@@ -1,66 +1,123 @@
 body{
-    margin: 500;
-    padding: 500;
-    box-sizing: border-box;
-    
-    background-color: lightgoldenrodyellow;
+    margin: 0; 
 }
 
-.parallax{
-    background-image: url(sushi.jpeg);
-    min-height: 500px;
+.parallax {
+    background-image: url(photo-1603362305302-f034a317a924.jpeg);
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.content {
-    height: 100vh;
+.logolink {
+    margin: 0;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
-h1{
-    color: green;
-    font-size: 40px;
-    margin: 10px;  
+.navbarmenu {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
+.topnav {
+    background-color: blanchedalmond;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.navbarmenu a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+
+
+h1 {
+        color:blanchedalmond;
+        font-size: 80px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 4px #000000;
+}
+
+.logo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 3%;
+}    
+    
 h3{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+.headline {display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        font-style: italic;
+        color: black;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
 }
 
-p {display: flex;
-    justify-content: center;
-    text-align: center;
+h4 {
+    font-size: 20px;
+}
+.weekdays {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-
-
-article {
-    display:flex;
-    justify-content: center;
-    text-align: center;
+.weekend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
+
+p{
+    font-size: 17px;
+}
+
+.footernav{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+            margin: 500;
+            padding: 500;
+            box-sizing: border-box;
+            
+            background-color:white;
+        }
+    }
+
+
+
+
+
+
+
+
 
     
 
-ul {
-    position: absolute;
-    display: flex;
-    right: 0;
-   list-style-type: none;
-   margin: 0px;
-   padding-right: 10%;
 
-}
-li{
-    margin: 10px;
-}
-
- 
-      

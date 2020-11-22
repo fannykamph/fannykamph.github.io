@@ -1,54 +1,68 @@
 body{
-    background-color: lightgoldenrodyellow;
+    margin: 0; 
 }
-
-.parallax{
-    background-image: url(soysause.jpeg);
-    min-height: 500px;
+.parallax {
+    background-image: url(photo-1603362305302-f034a317a924.jpeg);
+    min-height: 600px;
     background-attachment: fixed;
-    background-position: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .content {
     height: 100vh;
 }
-.navbar > ul {
-    position: absolute;
-    display: flex;
-    right: 0;
-    list-style-type: none;
-    margin: 0px;
-    padding-right: 10%;
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 
-li {
-    margin: 10px;
+.topnav {
+    background-color: blanchedalmond;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
 }
 
-
-
-header{
-    display: flex;
-    justify-content: center;
+.topnav a {
+    color: black;
     text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    
 }
+    .home{
+        display: flex;
+    align-items: center;
+    }
 
 h1{
-    color: green;
-    font-size: 40px;
-    margin: 10px;  
-}
+        color:blanchedalmond;
+        font-size: 80px;
+        margin: 20px;  
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
 
 .meny{
-
+    
     text-align: center;
 }
 
 .meny-container{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    margin-top: 7%;
+    
 }
 
 .border {
@@ -58,3 +72,28 @@ h1{
     padding: 10px;
 }
 
+
+.extrainfo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+
+    
+
+}
+
+@media only screen and (max-width:1000px) {
+    body{
+            margin: 500;
+            padding: 500;
+            box-sizing: border-box;
+            
+            background-color:white;
+        }
+        .meny-container{
+            display: block;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
