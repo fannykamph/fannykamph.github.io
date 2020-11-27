@@ -1,0 +1,57 @@
+
+.topnav {
+    background-color: #bee5eb;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:sans-serif;
+  }
+  
+.active {
+    background-color:#8ad8e4;
+    color: white;
+  }
+
+.topnav .menu {
+    display: none;
+  }
+ 
+.myTopnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.hide-desktop {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.hide-desktop {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+}
+  
+ 
+  
+  
+
+  
+ 
