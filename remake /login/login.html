@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doggos</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="login-page">
+		<div class="form">
+			<img src="pawprint.svg">
+			<form class="register-form" action="../profile/index.html">
+				<input type="text" placeholder="username" />
+				<input type="password" placeholder="password" />
+				<input type="email" placeholder="email" />
+				<button type="submit">Create</button>
+				<p class="message"> Already registered? <a href="#">Login</a></p>
+			</form>
+
+			<form class="login-form" action="../profile/index.html">
+				<input type="text" placeholder="username" />
+				<input type="password" placeholder="password" />
+				<button>Login</button>
+				<p class="message">Not registered? <a href="#">Register</a> </p>
+
+
+			</form>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+
+
+	<script>
+		$('.message a').click(function () {
+			$('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+		});
+	</script>
+
+	<script type="text/javascript">
+		var currentUserName = _spPageContextInfo.userDisplayName;
+	</script>
+</body>
+
+</html>
